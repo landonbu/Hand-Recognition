@@ -5,7 +5,7 @@ img = cv2.imread("test-images/screenshot.JPG")
 kernel = np.ones((5, 5), np.uint8)
 
 # Makes the image gray
-imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) #Ryan's Comment :)
 
 # Blurs the image
 imgBlur = cv2.GaussianBlur(imgGray, (7, 7), 0)
